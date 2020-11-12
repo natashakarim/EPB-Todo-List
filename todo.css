@@ -1,0 +1,53 @@
+
+h1 {
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: 500;
+    text-align: center;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: lightgrey;
+}
+
+li {
+    list-style: none; /*remove bullet point*/
+    display: flex;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    background-color: white;
+    border-radius: 0.25em;
+    box-shadow: 0em 0.2em 0.5em rgba(0,0,0,0.2);
+}
+
+ul {
+    padding-left: 0px; /*remove the gaps left by the bullets ie padding*/
+}
+
+span {
+flex-grow: 1;
+}
+
+#add {
+    display: flex;
+}
+
+#add > input {
+    font-size: 1em;
+    flex-grow: 1;
+    padding: 0.5em;
+    border-top-left-radius: 0.25em;
+    border-bottom-left-radius: 0.25em ;
+    border: none;
+}
+
+#add > button {
+    border-top-right-radius: 0.25em;
+    border-bottom-right-radius: 0.25em;
+    border: 1px solid grey;
+    margin-left: 1em;
+}
+
+:checked + span {
+    text-decoration: line-through;
+}
